@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Ecommerce">
+  <test name="SanityTests">
+    <classes>
+      <class name="sanityTests.UIcheck"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,2 +1,0 @@
-# EzSearchTest
-Testing EzSearch App
