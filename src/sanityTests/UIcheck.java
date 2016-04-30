@@ -47,6 +47,28 @@ public class UIcheck {
 	 }
 
 	@Test
+	public void aboutLink(){
+		WebElement aboutBtn = driver.findElement(By.xpath(".//*[@id='menu-0']/div/div/div/div[3]/nav/div/ul/li[2]/a"));
+		aboutBtn.click();
+		String url = driver.getCurrentUrl();
+		Assert.assertEquals(url, "http://app-ezsearch.rhcloud.com/about.jsp");
+		System.out.println("Redirected to About Page");
+
+
+	}
+
+	@Test
+	public void contactLink(){
+		WebElement contactBtn = driver.findElement(By.xpath(".//*[@id='menu-0']/div/div/div/div[3]/nav/div/ul/li[3]/a"));
+		contactBtn.click();
+		String url = driver.getCurrentUrl();
+		Assert.assertEquals(url, "http://app-ezsearch.rhcloud.com/contact.jsp");
+		System.out.println("Redirected to Contact Page");
+	}
+
+
+
+	@Test
 	public void textFields() throws InterruptedException{
 
 		driver.findElement(By.name("searchterm")).sendKeys("pizza");

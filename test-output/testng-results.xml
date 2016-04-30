@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Ecommerce" duration-ms="7291" started-at="2016-04-29T05:31:40Z" finished-at="2016-04-29T05:31:47Z">
+  <suite name="Default suite" duration-ms="7194" started-at="2016-04-29T20:59:11Z" finished-at="2016-04-29T20:59:18Z">
     <groups>
     </groups>
-    <test name="SanityTests" duration-ms="7291" started-at="2016-04-29T05:31:40Z" finished-at="2016-04-29T05:31:47Z">
+    <test name="Default test" duration-ms="7194" started-at="2016-04-29T20:59:11Z" finished-at="2016-04-29T20:59:18Z">
       <class name="sanityTests.UIcheck">
-        <test-method status="PASS" signature="urlTitle()[pri:0, instance:sanityTests.UIcheck@5ae584d0]" name="urlTitle" is-config="true" duration-ms="1508" started-at="2016-04-28T22:31:40Z" finished-at="2016-04-28T22:31:41Z">
+        <test-method status="PASS" signature="urlTitle()[pri:0, instance:sanityTests.UIcheck@32e80636]" name="urlTitle" is-config="true" duration-ms="1653" started-at="2016-04-29T13:59:11Z" finished-at="2016-04-29T13:59:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlTitle -->
-        <test-method status="PASS" signature="checkLinks()[pri:0, instance:sanityTests.UIcheck@5ae584d0]" name="checkLinks" duration-ms="175" started-at="2016-04-28T22:31:41Z" finished-at="2016-04-28T22:31:42Z">
+        <test-method status="PASS" signature="checkLinks()[pri:0, instance:sanityTests.UIcheck@32e80636]" name="checkLinks" duration-ms="145" started-at="2016-04-29T13:59:12Z" finished-at="2016-04-29T13:59:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLinks -->
-        <test-method status="PASS" signature="searchResults()[pri:0, instance:sanityTests.UIcheck@5ae584d0]" name="searchResults" duration-ms="102" started-at="2016-04-28T22:31:42Z" finished-at="2016-04-28T22:31:42Z">
+        <test-method status="PASS" signature="searchResults()[pri:0, instance:sanityTests.UIcheck@32e80636]" name="searchResults" duration-ms="85" started-at="2016-04-29T13:59:12Z" finished-at="2016-04-29T13:59:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchResults -->
-        <test-method status="PASS" signature="textFields()[pri:0, instance:sanityTests.UIcheck@5ae584d0]" name="textFields" duration-ms="5473" started-at="2016-04-28T22:31:42Z" finished-at="2016-04-28T22:31:47Z">
+        <test-method status="PASS" signature="textFields()[pri:0, instance:sanityTests.UIcheck@32e80636]" name="textFields" duration-ms="5287" started-at="2016-04-29T13:59:13Z" finished-at="2016-04-29T13:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textFields -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sanityTests.UIcheck@5ae584d0]" name="closeBrowser" is-config="true" duration-ms="14" started-at="2016-04-28T22:31:47Z" finished-at="2016-04-28T22:31:47Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sanityTests.UIcheck@32e80636]" name="closeBrowser" is-config="true" duration-ms="11" started-at="2016-04-29T13:59:18Z" finished-at="2016-04-29T13:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- sanityTests.UIcheck -->
-    </test> <!-- SanityTests -->
-  </suite> <!-- Ecommerce -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
